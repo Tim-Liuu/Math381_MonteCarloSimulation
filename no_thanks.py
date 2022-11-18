@@ -70,8 +70,6 @@ for t in card_thresh:
 
 						# additional strategy: 	if the card is large enough and cost nothing to pick, 
 						# 						then don't pick until there are at least x tokens on that card
-												# TODO: use constant
-												# TODO: test this, 先找currentTokens的最best的值，再固定第二个，找cardThresh2的best值
 
 						# if ((currentCard+1 in players[currentPlayer].cards or currentCard-1 in players[currentPlayer].cards) \
 						# 	and currentCard>=cardThresh2 and currentTokens < 0.2*currentCard and players[currentPlayer].tokens!=0 ): 
