@@ -1,10 +1,3 @@
-## Matthew Conroy 2017
-##
-##
-## A simulation of the game No Thanks!
-## see https://en.wikipedia.org/wiki/No_Thanks!_(game)
-##
-##
 import itertools,random
 
 class Player:
