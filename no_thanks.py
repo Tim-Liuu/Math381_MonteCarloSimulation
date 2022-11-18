@@ -17,8 +17,8 @@ numberOfGames = 1000000
 alpha = 17   ## fixed alpha values for all players in order for testing advanced strategy
 total_c = []
 
-token_thresh = [2]
-card_thresh = range(34,35)
+token_thresh = [1,6]
+card_thresh = range(3,36)
 
 for t in card_thresh: 
 	for l in token_thresh: 
